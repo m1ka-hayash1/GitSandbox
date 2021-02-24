@@ -1,0 +1,182 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.gfm':
+# general snippets
+   'List':
+     'prefix': 'list'
+     'body': '- '
+
+   'Comment':
+      'prefix': 'comment_out'
+      'body': '<!--  -->'
+
+    'Borderline':
+      'prefix': 'border'
+      'body':'=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+
+# template snippets
+
+   'MFCaweb_newaccount':
+     'prefix': 'dmbot_MFCaweb_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、【MFC aweb】アクセス申請が完了しました。
+        *ワークフローURL*
+
+        ID：
+        PW：
+        URL：https://aweb.moneyforward.com:6443/
+
+        以上、よろしくお願いいたします。
+     """
+
+   'PFMaweb_newaccount':
+     'prefix': 'dmbot_PFMaweb_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、【PMF aweb】アクセス申請が完了しました。
+        *ワークフローURL*
+
+        ID：
+        PW：
+        URL：https://aweb.moneyforward.com:3443/
+
+        以上、よろしくお願いいたします。
+     """
+
+   'for_X_aweb_newaccount':
+     'prefix': 'dmbot_for_X_aweb_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、【for X aweb】アクセス申請が完了しました。
+        *ワークフローURL*
+
+        ID：
+        PW：
+        URL：https://prod-forxaweb.ebisubook.com/
+
+        以上、よろしくお願いいたします。
+     """
+
+   'mf_internal_newaccount':
+     'prefix': 'dmbot_mf_internal_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、【mf internal aweb】のアカウント作成が完了いたしました。
+        *ワークフローURL*
+
+        下記よりログイン後、パスワード変更してLastpassに登録してください。
+
+        ID：
+        PW：
+        URL：下記esa参照
+        https://mf.esa.io/posts/126066
+
+        よろしくお願いいたします。
+     """
+
+   'newPC_Windows':
+     'prefix': 'dmbot_newPC_Win'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、交換用PCのセットアップが完了いたしました。
+        *ワークフローURL*
+
+        以下のesaを参考に新端末を受け取っていただき、初期設定をお願いいたします。
+        https://mf.esa.io/posts/159430
+        以上、よろしくお願いいたします。
+     """
+
+   'newPC_Macintosh':
+     'prefix': 'dmbot_newPC_Mac'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、交換用PCのセットアップが完了いたしました。
+        *ワークフローURL*
+
+        以下のesaを参考に新端末を受け取っていただき、初期設定をお願いいたします。
+        https://mf.esa.io/posts/159430
+
+        なお、ユーザープロファイルの初期パスワードは以下の通りです：
+        Mfw-*xxxxxxxx*
+
+        以上、よろしくお願いいたします。
+     """
+
+   'onbording_manual_Windows':
+     'prefix': 'onbording_manual_Win'
+     'body': """
+        ※こちらはWindows PCを貸与される方宛のメンションです。
+
+        :クラッカー:ご入社おめでとうございます:クラッカー:
+
+        *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
+        端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        よろしくお願いいたします！
+
+     """
+
+   'onbording_manual_Macintosh':
+     'prefix': 'onbording_manual_Mac'
+     'body': """
+        ※こちらはMac PCを貸与される方宛のメンションです。
+
+        :クラッカー:ご入社おめでとうございます:クラッカー:
+
+        *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
+        端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        よろしくお願いいたします！
+     """
+
+   'onbording_manual_MFG':
+     'prefix': 'onbording_manual_MFK'
+     'body': """
+        ※こちらはグループ会社の方宛のメンションです。
+
+        :クラッカー:ご入社おめでとうございます:クラッカー:
+
+        *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
+        端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        よろしくお願いいたします！
+     """
+
+   'onbording_announce_login':
+     'prefix': 'dmbot_onbording'
+     'body': """
+        ご入社おめでとうございます！
+        こちらはID/Password通知です。
+
+        入社日当日AMにセットアップオリエンテーションがスケジュールされています。その際に使用するID/Passwordをご連絡いたします。
+        ID：*sanpleuser*@moneyforward.co.jp
+        Password：Mfw-*xxxxxxxx*
+     """
+
+# yml snippets
+
+'.sorce.yaml':
+   'List':
+     'prefix': 'list'
+     'body': '- '
