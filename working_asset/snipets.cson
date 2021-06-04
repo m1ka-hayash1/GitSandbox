@@ -94,6 +94,25 @@
 
         よろしくお願いいたします。
      """
+   'establish_newaccount':
+     'prefix': 'dmbot_establish_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        会社設立管理Webアカウントを作成しましたので、ログイン情報を通知いたします。
+
+        ・URL
+        https://establish.moneyforward.com:1443/admins/auth/sign_in
+
+        ・BASIC認証情報
+        ID：*XXXXXXX*
+        PW：*XXXXXXX*
+
+        ・ログイン情報
+        ID：
+        PW：
+
+        よろしくお願いいたします。
+     """
 
    'newPC_Windows':
      'prefix': 'dmbot_newPC_Win'
@@ -132,7 +151,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika tokuda.ryunosuke までメンションをつけご質問ください。
         よろしくお願いいたします！
 
      """
@@ -146,7 +165,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika @tokuda.ryunosuke までメンションをつけご質問ください。
         よろしくお願いいたします！
      """
 
@@ -159,7 +178,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @sato.takeshi @hayashi.mika までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika tokuda.ryunosuke までメンションをつけご質問ください。
         よろしくお願いいたします！
      """
 
@@ -172,6 +191,19 @@
         入社日当日AMにセットアップオリエンテーションがスケジュールされています。その際に使用するID/Passwordをご連絡いたします。
         ID：*sanpleuser*@moneyforward.co.jp
         Password：Mfw-*xxxxxxxx*
+     """
+
+   'kiting_order_to_uchidaesco':
+     'prefix': 'esco_kittingPC'
+     'body': """
+        @Ken Satou @Fumiaki Matsubara @Hideaki Iwaki @Keiji Takayama CC: @suguru yamazaki @ウチダエスコ 菊池
+        以下作業依頼について、情報を台帳に記入いたました。
+
+        【キッティング依頼PC】
+        作業依頼No：X ～ X
+        希望納品日：XX / XX
+
+        ご対応よろしくお願い申し上げます。
      """
 
 # yml snippets
