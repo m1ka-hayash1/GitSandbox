@@ -64,6 +64,20 @@
         以上、よろしくお願いいたします。
      """
 
+   'Cryptobin_newaccount':
+     'prefix': 'dmbot_Crypto_new'
+     'body': """
+        お疲れさまです、ITサポートグループです。
+        以下ワークフローより申請いただいてます、【クリプト便】アクセス申請が完了しました。
+        *ワークフローURL*
+
+        ID：
+        PW：
+        URL：https://cryvia.cryptobin.jp/crypto/usr_index.action
+
+        以上、よろしくお願いいたします。
+     """
+
    'for_X_aweb_newaccount':
      'prefix': 'dmbot_for_X_aweb_new'
      'body': """
@@ -151,7 +165,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika tokuda.ryunosuke までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika までメンションをつけご質問ください。
         よろしくお願いいたします！
 
      """
@@ -165,7 +179,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika @tokuda.ryunosuke までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika までメンションをつけご質問ください。
         よろしくお願いいたします！
      """
 
@@ -178,7 +192,7 @@
 
         *mm/dd* AM 中にPCセットアップの時間がスケジュールされております。
         端末をお受け取りになられましたらこのメッセージに貼付の手順書を参考にセットアップを完了させてください。
-        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika tokuda.ryunosuke までメンションをつけご質問ください。
+        手順中にご不明点等ございましたら、本チャンネルで @Mughal @hayashi.mika までメンションをつけご質問ください。
         よろしくお願いいたします！
      """
 
@@ -197,7 +211,7 @@
      'prefix': 'esco_kittingPC'
      'body': """
         @Ken Satou @Fumiaki Matsubara @Hideaki Iwaki @Keiji Takayama CC: @suguru yamazaki @ウチダエスコ 菊池
-        以下作業依頼について、情報を台帳に記入いたました。
+        以下作業依頼について、情報を台帳に記入いたしました。
 
         【キッティング依頼PC】
         作業依頼No：X ～ X
